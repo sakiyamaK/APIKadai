@@ -16,7 +16,7 @@ URLSessionを使って`https://picsum.photos/200/300`にアクセスしてデー
 
 ### 参考
 
-https://github.com/sakiyamaK/SampleAPI/blob/main/SampleAPI.playground/Contents.swift
+https://github.com/sakiyamaK/APIKadai/tree/main/Kadai1.playground
 
 ## 課題3 サーバーから画像データを受け取ろう2
 
@@ -26,7 +26,7 @@ playgroundでやる
 
 ### 参考
 
-https://github.com/sakiyamaK/SampleAPI/blob/main/SampleAPI.playground/Contents.swift
+https://github.com/sakiyamaK/APIKadai/tree/main/Kadai3.playground
 
 
 ## 課題4 githubサーバーからjsonデータを受け取ろう
@@ -38,7 +38,7 @@ URLSessionを使って`https://api.github.com/search/code?q=swift`にアクセ�
 ### 参考
 
 
-https://github.com/sakiyamaK/SampleAPI/blob/main/SampleAPI/GithubAPIViewController.swift
+https://github.com/sakiyamaK/APIKadai/tree/main/Kadai4.playground
 
 
 ## 課題5 githubサーバーからjsonデータを受け取ろう
@@ -53,5 +53,4 @@ UILabelにURLを表示して取得した画像をUIImageViewに表示する
 
 ### 参考
 
-
-https://github.com/sakiyamaK/SampleAPI/blob/main/SampleAPI/GithubAPIViewController.swift
+https://github.com/sakiyamaK/APIKadai/blob/main/APIKadai/ViewController.swift
