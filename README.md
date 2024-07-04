@@ -33,7 +33,7 @@ https://github.com/sakiyamaK/APIKadai/tree/main/Kadai3.playground
 
 ## 課題4 githubサーバーからjsonデータを受け取ろう
 
-URLSessionを使って`https://api.github.com/search/code?q=swift`にアクセスしてデータを受け取る
+URLSessionを使って`https://api.github.com/search/repositories?q=swift`にアクセスしてデータを受け取る
 
 課題2の内容をクロージャーかawaitのどちらでもよい
 
