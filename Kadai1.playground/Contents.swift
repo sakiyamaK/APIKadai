@@ -1,24 +1,18 @@
 import UIKit
 
-let urlStr: String = "https://picsum.photos/200/300"
+let arr = Array(1...100)
 
-let url = URL(string: urlStr)!
-
-let session = URLSession.shared
-let task = session.dataTask(with: url) { data, response, error in
-    // errorがnilじゃないならifがtrueになる
-    if let error {
-        print(error)
-        return
+for v in arr {
+    if v%2==0 {
+        print(v)
     }
-    
-    guard let data, let image = UIImage(data: data) else {
-        print("dataは画像じゃないよ")
-        return
-    }
-    
-    //　本当はここでUI側に渡して画面に表示したりする
-    image
 }
 
-task.resume()
+for v in arr where v%2==0 {
+    print(v)
+}
+
+let arr2 = arr.filter({ v in v%2 == 0})
+for v in arr2 {
+    print(v)
+}

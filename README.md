@@ -4,6 +4,8 @@
 
 playgroundファイルを用意して1~100の偶数だけを表示するプログラムを実行させる
 
+https://github.com/sakiyamaK/APIKadai/tree/main/Kadai1.playground
+
 ## 課題2 サーバーから画像データを受け取ろう
 
 playgroundでやる
@@ -16,7 +18,7 @@ URLSessionを使って`https://picsum.photos/200/300`にアクセスしてデー
 
 ### 参考
 
-https://github.com/sakiyamaK/APIKadai/tree/main/Kadai1.playground
+https://github.com/sakiyamaK/APIKadai/tree/main/Kadai2.playground
 
 ## 課題3 サーバーから画像データを受け取ろう2
 
